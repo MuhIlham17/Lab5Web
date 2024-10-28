@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registrasi</title>
+    <script>
+        function validasiForm() 
+        {
+            var nama = document.getElementById("nama").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var konfirmasiPassword = document.getElementById("konfirmasiPassword").value;
+
+            if (nama == "" && email == "") {
+                alert("Harap isi salah satu antara Nama atau Email.");
+                return false;
+            }
+            var polaEmail = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (email !== "" && !email.match(polaEmail)) {
+                alert("Masukkan alamat email yang benar.");
+                return false;
+            }
+            if (password == "") {
+                alert("Password harus diisi.");
+                return false;
+            }
+            if (konfirmasiPassword == "") {
+                alert("Konfirmasi Password harus diisi.");
+                return false;
+            }
+            if (password !== konfirmasiPassword) {
+                alert("Password dan Konfirmasi Password tidak cocok.");
+                return false;
+            }
+            alert("Form berhasil divalidasi!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Form Registrasi</h2>
+    <form onsubmit="return validasiForm()">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="konfirmasiPassword">Konfirmasi Password:</label><br>
+        <input type="password" id="konfirmasiPassword" name="konfirmasiPassword"><br><br>
+
+        <input type="submit" value="Daftar">
+    </form>
+</body>
+</html>
