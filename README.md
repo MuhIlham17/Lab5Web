@@ -27,4 +27,16 @@
 # 9. Form Input
 ![image](https://github.com/user-attachments/assets/8457047e-bd4b-4df2-99dd-fe02ec81aa14)
 ![image](https://github.com/user-attachments/assets/3148a520-a1f3-4d00-8839-98ee51db48b2)
-# 10. Form Button.
+# 10. Form Button. (mengubah background warna)
+![image](https://github.com/user-attachments/assets/605864de-22c3-4960-bb04-011c676d3015)
+![image](https://github.com/user-attachments/assets/66847245-045c-420e-9b7c-de5c68238d2e)
+![image](https://github.com/user-attachments/assets/5c071dc0-3307-4094-9cc5-83b375c68e74)
+![image](https://github.com/user-attachments/assets/ce3b705b-c7c7-46ff-ad68-49a050f99689)
+# 11. Pilihan menggunakan checkBox dengan perhitungan otomatis
+![image](https://github.com/user-attachments/assets/9caed0ed-affd-44ca-b493-a7dca5a287a6)
+
+# TUGAS (Buat script untuk melakukan validasi pada isian form.)
+![Screenshot 2024-10-28 200649](https://github.com/user-attachments/assets/65532d97-f951-474a-8aba-62281300c0e7)
+![image](https://github.com/user-attachments/assets/fff30030-0b03-4f64-9b29-846896183a68)
+![image](https://github.com/user-attachments/assets/1fd96caf-0313-4a35-8747-2f3aad15f379)
+
